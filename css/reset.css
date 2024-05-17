@@ -16,6 +16,13 @@ body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
 }
+button {
+    all: unset;
+}
+
+button:focus {
+    outline: revert;
+}
 
 img,
 picture,
