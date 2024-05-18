@@ -47,6 +47,10 @@ body {
     padding-block-end: 0.875rem;
     color: var(--dark-blue);
 }
+
+.change-link {
+    font-size: 0.75rem;
+}
 .hero-img {
     border-radius: 21px 21px 0 0;
     width: 100%;
@@ -64,11 +68,14 @@ body {
     font-size: 1rem;
 }
 .price-con {
+    
     padding-inline: 1rem;
+  
 }
 .price-title {
     font-size: 0.88rem;
-    padding-inline: 0.8rem;
+    
+    
 }
 
 .red-hat-display-500 {
