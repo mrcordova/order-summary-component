@@ -56,15 +56,17 @@ body {
     color: var(--desaturated-blue);
     padding-block-end: 1.1875rem;
     line-height: 1.68;
-    
+
+    padding-inline: clamp(2.1rem, 1.2549rem + 3.6056vw, 4.5rem);
+    font-size: clamp(0.95rem, 0.9324rem + 0.0751vw, 1rem);
     /* Mobile */
     /* padding-inline: 2.1rem; */
     /* font-size: 0.95rem; */
     
     
     /* Desktop */
-    padding-inline: 4.5rem;
-    font-size: 1rem;
+    /* padding-inline: 4.5rem; */
+    /* font-size: 1rem; */
    
 }
 #card-title {
