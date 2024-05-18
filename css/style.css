@@ -20,6 +20,9 @@ body {
 
     background-color: var(--pale-blue);
 }
+#cancel-btn {
+    
+}
 
 .card {
     display: flex;
@@ -68,10 +71,14 @@ body {
   
     
 }
-#payment-con {
+#payment-btn {
     background-color: var(--bright-blue);
-    padding: 0.85rem;
-    margin-block: 1.4rem;
+    border-radius: 10px;
+    padding-inline: 3.95rem;
+    padding-block: 0.85rem ;
+    margin-block: 1.4rem 1.4375rem;
+    color: white;
+    font-size: 0.95rem;
 }
 .plan-con-child{
     display: flex;
