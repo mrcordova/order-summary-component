@@ -152,3 +152,9 @@ body {
     font-weight: 900;
     font-style: normal;
 }
+
+@media(min-width: 56.4rem ) {
+   body {
+    background-image: url(../images/pattern-background-desktop.svg);
+   }
+}
