@@ -38,14 +38,15 @@ body {
     background-color: white;
     border-radius: 21px;
     box-shadow: 1px 20px 9px hsl(from var(--pale-blue) h s l / 0.2);
-    
+    inline-size: clamp(20.5rem, 17.7923rem + 11.5531vw, 28.19rem);
+    block-size: clamp(35.5rem, 32.6831rem + 12.0188vw, 43.5rem);
     /* Mobile */
     /* inline-size: 20.5rem; */
     /* block-size: 35.5rem; */
 
     /* Desktop */
-    inline-size: 28.19rem;
-    block-size: 43.5rem;
+    /* inline-size: 28.19rem; */
+    /* block-size: 43.5rem; */
     
 }
 
