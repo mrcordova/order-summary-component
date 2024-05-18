@@ -38,6 +38,7 @@ body {
     background-color: white;
     border-radius: 21px;
     box-shadow: 1px 20px 9px hsl(from var(--pale-blue) h s l / 0.2);
+
     inline-size: clamp(20.5rem, 17.7923rem + 11.5531vw, 28.19rem);
     block-size: clamp(35.5rem, 32.6831rem + 12.0188vw, 43.5rem);
     /* Mobile */
@@ -154,7 +155,7 @@ body {
     align-items: center;
     background-color: var(--very-pale-blue);
 
-    border-radius: clamp( 0.625rem, 1.0475rem + -0.4695vw,  0.9375rem,);
+    border-radius: 10px;
     margin-inline: clamp(1.5625rem, 1.0563rem + 2.1596vw, 3rem);
     /* Mobile */
     /* margin-inline: 1.5625rem; */
@@ -182,9 +183,9 @@ body {
     
 }
 .price-con {
-    /* padding-block: 1.3125rem 1.125rem; */
+    padding-block: 1.3125 1.125rem;
 
-    padding-inline-start: 1.25rem;
+    /* padding-inline-start: clamp(0.45rem, 0.1683rem + 1.2019vw, 1.25rem); */
    
     flex: 1;
 
