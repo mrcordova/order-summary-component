@@ -127,7 +127,7 @@ body {
 }
 .price {
     font-size: clamp(0.9rem, 0.8472rem + 0.2254vw, 1.05rem);
-  
+    color: var(--desaturated-blue);
     
 }
 .price-con {
