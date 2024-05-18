@@ -50,12 +50,10 @@ body {
 
 .change-link {
     font-size: 0.8rem;
-    /* flex: 1; */
-    /* padding-inline-start: 2rem; */
-    padding-block: 2rem 1.875rem;
-    padding-inline-end: 1.0625rem;
-    margin-inline-end: 1.4375rem;
-    background-color: var(--very-pale-blue);
+    
+    padding-block: 2.125rem 1.875rem;
+    padding-inline-end: 0.9375rem;
+   
    
     
 }
@@ -64,20 +62,25 @@ body {
     width: 100%;
 }
 .music-icon {
-    /* padding-inline-end: 1rem; */
-    /* flex: 1; */
-    padding-block: 1.10rem;
-    padding-inline-start: 1.0625rem;
-    margin-inline-start: 1.4375rem;
-    background-color: var(--very-pale-blue);
-    /* background-color: red; */
     
+    padding-block: 1.125rem;
+    padding-inline-start: 0.9375rem;
+  
+    
+}
+.plan-con-child{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin-inline: 1.5625rem;
+  
+    background-color: var(--very-pale-blue);
+    border-radius: 10px;
 }
 
 .plan-con {
     display: flex;
     align-items: center;
- 
     min-width: 100%;
  
 }
@@ -87,9 +90,9 @@ body {
     
 }
 .price-con {
-    padding-block: 1.25rem;
+    padding-block: 1.3125 1.125rem;
     padding-inline-start: 1.25rem;
-    background-color: var(--very-pale-blue);
+  
   
     flex: 1;
 
