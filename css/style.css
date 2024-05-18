@@ -83,6 +83,12 @@ body {
     font-size: 0.95rem;
     box-shadow: 1px 11px 20px 5px hsl( from var(--bright-blue) h s l / 0.3);
 }
+
+#payment-btn:hover {
+   background-color: hsl( from var(--bright-blue) h s l / 0.62);
+  
+    cursor: pointer;
+}
 .plan-con-child{
     display: flex;
     flex: 1;
