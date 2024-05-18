@@ -27,7 +27,7 @@ body {
     inline-size: 20.5rem;
     block-size: 35.5rem;
     align-items: center;
-    background-color: var(--very-pale-blue);
+    background-color: white;
     border-radius: 21px;
 }
 
@@ -38,6 +38,7 @@ body {
     padding-block-end: 2.4rem;
     font-size: 0.95rem;
     line-height: 1.68;
+    color: var(--desaturated-blue);
    
 }
 #card-title {
