@@ -60,8 +60,14 @@ body {
    
 }
 #card-title {
-    font-size: 1.4rem;
-    padding-block-start: 1.875rem;
+    /* Mobile */
+    /* font-size: 1.4rem; */
+    /* padding-block-start: 1.875rem; */
+    /* padding-block-end: 0.875rem; */
+
+    /* Desktop */
+    font-size: 1.75rem;
+    padding-block-start: 2.625rem;
     padding-block-end: 0.875rem;
     color: var(--dark-blue);
 }
