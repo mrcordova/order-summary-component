@@ -16,11 +16,14 @@ html, body {
 body {
     display: grid;
     align-content: center;
+    justify-content: center;
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    inline-size: 21rem;
+    align-items: center;
 }
 
 
