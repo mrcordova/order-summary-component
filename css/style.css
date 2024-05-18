@@ -50,6 +50,10 @@ body {
     width: 100%;
 }
 
+.plan-con {
+    display: flex;
+}
+
 .red-hat-display-500 {
     font-family: "Red Hat Display", sans-serif;
     font-optical-sizing: auto;
