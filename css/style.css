@@ -60,12 +60,16 @@ body {
 
 .change-link {
     font-size: 0.8rem;
-    
+    color: var(--bright-blue);
     padding-block: 2.125rem 1.875rem;
     padding-inline-end: 0.9375rem;
    
    
     
+}
+.change-link:hover {
+    text-decoration: none;
+    color: hsl( from var(--bright-blue) h s l / 0.5);
 }
 .hero-img {
     border-radius: 21px 21px 0 0;
