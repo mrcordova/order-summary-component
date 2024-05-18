@@ -18,7 +18,6 @@ body {
     display: grid;
     align-content: center;
     justify-content: center;
-    /* background: var(--pale-blue) url(../images/pattern-background-mobile.svg) no-repeat top/contain; */
     background: var(--pale-blue) url(../images/pattern-background-mobile.svg) no-repeat top/contain;
 }
 #cancel-btn {
@@ -41,13 +40,7 @@ body {
 
     inline-size: clamp(20.5rem, 17.7923rem + 11.5531vw, 28.19rem);
     block-size: clamp(35.5rem, 32.6831rem + 12.0188vw, 43.5rem);
-    /* Mobile */
-    /* inline-size: 20.5rem; */
-    /* block-size: 35.5rem; */
-
-    /* Desktop */
-    /* inline-size: 28.19rem; */
-    /* block-size: 43.5rem; */
+  
     
 }
 
@@ -60,14 +53,7 @@ body {
 
     padding-inline: clamp(2.1rem, 1.2549rem + 3.6056vw, 4.5rem);
     font-size: clamp(0.95rem, 0.9324rem + 0.0751vw, 1rem);
-    /* Mobile */
-    /* padding-inline: 2.1rem; */
-    /* font-size: 0.95rem; */
-    
-    
-    /* Desktop */
-    /* padding-inline: 4.5rem; */
-    /* font-size: 1rem; */
+
    
 }
 #card-title {
@@ -75,14 +61,7 @@ body {
     padding-block-end: 0.875rem;
     font-size: clamp(1.4rem, 1.2768rem + 0.5258vw, 1.75rem);
     padding-block-start: clamp(1.875rem, 1.6109rem + 1.1268vw, 2.625rem);
-    /* Mobile */
-    /* font-size: 1.4rem; */
-    /* padding-block-start: 1.875rem; */
-    
-
-    /* Desktop */
-    /* font-size: 1.75rem; */
-    /* padding-block-start: 2.625rem; */
+ 
 }
 
 .change-link {
@@ -91,15 +70,7 @@ body {
     font-size: clamp(0.8rem, 0.7648rem + 0.1502vw, 0.9rem);
     padding-inline-end: clamp(0.9375rem, 0.7394rem + 0.8451vw, 1.5rem);
     padding-block: clamp( 2rem, 2.1690rem + -0.1878vw, 2.125rem);
-    /* Mobile */
-    /* font-size: 0.8rem; */
-    /* padding-block: 2.125rem 1.875rem; */
-    /* padding-inline-end: 0.9375rem; */
 
-    /* Desktop */
-    /* font-size: 0.90rem; */
-    /* padding-block: 2rem 1.875rem; */
-    /* padding-inline-end: 1.5rem; */
 }
 .change-link:hover {
     text-decoration: none;
@@ -112,14 +83,8 @@ body {
 .music-icon {
     
     padding-inline: clamp(0.9375rem, 0.7218rem + 0.9202vw, 1.55rem);
-    padding-block: clamp(1.125rem, 1.0150rem + 0.4695vw, 1.4375rem)  clamp(1.125rem, 0.9930rem + 0.5634vw, 1.5rem);
-    /* Mobile */
-    /* padding-block: 1.125rem; */
-    /* padding-inline-start: 0.9375rem; */
-
-    /* Desktop */
-    /* padding-block: 1.4375rem 1.5rem; */
-    /* padding-inline-start: 1.55rem; */
+    padding-block: clamp(1.125rem, 1.0150rem + 0.4695vw, 1.4375rem) clamp(1.125rem, 0.9930rem + 0.5634vw, 1.5rem);
+   
   
     
 }
@@ -135,13 +100,7 @@ body {
     margin-block-start: clamp(1.4rem, 1.1887rem + 0.9014vw, 2rem);
     margin-block-end: clamp(1.4375rem, 1.2394rem + 0.8451vw, 2rem);
     
-    /* Mobile */
-    /* padding-inline: 3.95rem; */
-    /* margin-block: 1.4rem 1.4375rem; */
-
-    /* Desktop */
-    /* padding-inline: 6.5rem; */
-    /* margin-block: 2rem 2rem; */
+ 
 }
 
 #payment-btn:hover {
@@ -157,13 +116,7 @@ body {
 
     border-radius: 10px;
     margin-inline: clamp(1.5625rem, 1.0563rem + 2.1596vw, 3rem);
-    /* Mobile */
-    /* margin-inline: 1.5625rem; */
-    /* border-radius: 15px; */
-    
-    /* Desktop */
-    /* margin-inline: 3rem; */
-    /* border-radius: 10px; */
+  
 }
 
 .plan-con {
@@ -174,18 +127,13 @@ body {
 }
 .price {
     font-size: clamp(0.9rem, 0.8472rem + 0.2254vw, 1.05rem);
-    /* Mobile */
-    /* font-size: 0.90rem; */
-
-    /* Desktop */
-    /* font-size: 1.05rem; */
-   
+  
     
 }
 .price-con {
-    padding-block: 1.3125 1.125rem;
+    /* padding-block: 1.3125 1.125rem;
 
-    /* padding-inline-start: clamp(0.45rem, 0.1683rem + 1.2019vw, 1.25rem); */
+    padding-inline-start: clamp(0.45rem, 0.1683rem + 1.2019vw, 1.25rem); */
    
     flex: 1;
 
@@ -194,12 +142,7 @@ body {
 .price-title {
     color: var(--dark-blue);
     font-size: clamp(0.88rem, 0.8377rem + 0.1803vw, 1rem);
-    /* Mobile */
-    /* font-size: 0.88rem; */
-  
-
-    /* Desktop */
-    /* font-size: 1rem; */
+   
     
 }
 
