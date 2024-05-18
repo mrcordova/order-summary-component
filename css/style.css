@@ -18,6 +18,7 @@ body {
     display: grid;
     align-content: center;
     justify-content: center;
+    /* background: var(--pale-blue) url(../images/pattern-background-mobile.svg) no-repeat top/contain; */
     background: var(--pale-blue) url(../images/pattern-background-mobile.svg) no-repeat top/contain;
 }
 #cancel-btn {
@@ -33,12 +34,18 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    inline-size: 20.5rem;
-    block-size: 35.5rem;
     align-items: center;
     background-color: white;
     border-radius: 21px;
     box-shadow: 1px 20px 9px hsl(from var(--pale-blue) h s l / 0.2);
+    
+    /* Mobile */
+    /* inline-size: 20.5rem; */
+    /* block-size: 35.5rem; */
+
+    /* Desktop */
+    inline-size: 28.19rem;
+    block-size: 43.5rem;
     
 }
 
@@ -131,7 +138,7 @@ body {
 }
 .price-title {
     font-size: 0.88rem;
-    
+    color: var(--dark-blue);
 }
 
 .red-hat-display-500 {
