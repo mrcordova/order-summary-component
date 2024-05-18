@@ -33,6 +33,7 @@ body {
 #card-title {
     font-size: 1.4rem;
     padding-block-start: 1.875rem;
+    color: var(--dark-blue);
 }
 .hero-img {
     border-radius: 21px 21px 0 0;
