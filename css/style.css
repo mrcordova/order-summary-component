@@ -58,6 +58,7 @@ body {
     background-color: var(--very-pale-blue);
     padding-block: 1.2125rem;
     padding-inline: 1.40rem;
+    border-radius: 10px;
 }
 .price {
     font-size: 1rem;
@@ -67,6 +68,7 @@ body {
 }
 .price-title {
     font-size: 0.88rem;
+    padding-inline: 0.8rem;
 }
 
 .red-hat-display-500 {
