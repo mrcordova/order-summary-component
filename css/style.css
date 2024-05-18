@@ -68,6 +68,11 @@ body {
   
     
 }
+#payment-con {
+    background-color: var(--bright-blue);
+    padding: 0.85rem;
+    margin-block: 1.4rem;
+}
 .plan-con-child{
     display: flex;
     flex: 1;
@@ -75,7 +80,7 @@ body {
     margin-inline: 1.5625rem;
   
     background-color: var(--very-pale-blue);
-    border-radius: 10px;
+    border-radius: 15px;
 }
 
 .plan-con {
