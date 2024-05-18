@@ -134,12 +134,13 @@ body {
     flex: 1;
     align-items: center;
     background-color: var(--very-pale-blue);
-    border-radius: 15px;
-     /* Mobile */
+    /* Mobile */
     /* margin-inline: 1.5625rem; */
-
+    /* border-radius: 15px; */
+    
     /* Desktop */
     margin-inline: 3rem;
+    border-radius: 10px;
 }
 
 .plan-con {
