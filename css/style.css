@@ -24,6 +24,10 @@ body {
 #cancel-btn {
     color: var(--desaturated-blue);
     font-size: 0.95rem;
+  
+    
+   
+  
 }
 
 #cancel-btn:hover {
@@ -39,6 +43,8 @@ body {
     align-items: center;
     background-color: white;
     border-radius: 21px;
+    box-shadow: 1px 20px 9px hsl(from var(--pale-blue) h s l / 0.2);
+    
 }
 
 
