@@ -18,6 +18,10 @@ body {
     align-content: center;
 }
 
+.card {
+    display: flex;
+    flex-direction: column;
+}
 
 
 .red-hat-display-500 {
