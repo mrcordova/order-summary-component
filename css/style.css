@@ -21,7 +21,8 @@ body {
     background-color: var(--pale-blue);
 }
 #cancel-btn {
-    
+    color: var(--desaturated-blue);
+    font-size: 0.95rem;
 }
 
 .card {
