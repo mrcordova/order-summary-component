@@ -18,8 +18,7 @@ body {
     display: grid;
     align-content: center;
     justify-content: center;
-    background: var(--pale-blue) url(../images/pattern-background-mobile.svg) no-repeat;
-    /* background-color: var(--pale-blue); */
+    background: var(--pale-blue) url(../images/pattern-background-mobile.svg) no-repeat top/contain;
 }
 #cancel-btn {
     color: var(--desaturated-blue);
