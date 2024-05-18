@@ -57,6 +57,7 @@ body {
     align-items: center;
     background-color: var(--very-pale-blue);
     padding-block: 1.2125rem;
+    padding-inline: 1.40rem;
 }
 .price {
     font-size: 1rem;
