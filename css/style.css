@@ -30,7 +30,10 @@ body {
     background-color: var(--very-pale-blue);
     border-radius: 21px 21px 0 0;
 }
-
+#card-title {
+    font-size: 1.4rem;
+    padding-block-start: 1.875rem;
+}
 .hero-img {
     border-radius: 21px 21px 0 0;
     width: 100%;
