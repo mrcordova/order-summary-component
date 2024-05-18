@@ -35,6 +35,7 @@ body {
 #card-para {
     text-align: center;
     padding-inline: 2.1rem;
+    padding-block-end: 2.4rem;
     font-size: 0.95rem;
     line-height: 1.68;
    
@@ -52,6 +53,7 @@ body {
 
 .plan-con {
     display: flex;
+    align-items: center;
 }
 
 .red-hat-display-500 {
