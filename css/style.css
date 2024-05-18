@@ -81,10 +81,17 @@ body {
 }
 
 .change-link {
-    font-size: 0.8rem;
     color: var(--bright-blue);
-    padding-block: 2.125rem 1.875rem;
-    padding-inline-end: 0.9375rem;
+
+    /* Mobile */
+    /* font-size: 0.8rem; */
+    /* padding-block: 2.125rem 1.875rem; */
+    /* padding-inline-end: 0.9375rem; */
+
+    /* Desktop */
+    font-size: 0.90rem;
+    padding-block: 2rem 1.875rem;
+    padding-inline-end: 1.5rem;
 }
 .change-link:hover {
     text-decoration: none;
@@ -101,7 +108,7 @@ body {
     /* padding-inline-start: 0.9375rem; */
 
     /* Desktop */
-    padding-block: 1.4375rem 1rem;
+    padding-block: 1.4375rem 1.5rem;
     padding-inline-start: 1.55rem;
   
     
@@ -163,12 +170,11 @@ body {
     color: var(--dark-blue);
     /* Mobile */
     /* font-size: 0.88rem; */
-    /* padding-block: 0 */
+  
 
     /* Desktop */
     font-size: 1rem;
-    padding-block-start: 0.6rem;
-    padding-block-end: 0.4rem;
+    
 }
 
 .red-hat-display-500 {
