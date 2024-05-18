@@ -55,6 +55,7 @@ body {
 .plan-con {
     display: flex;
     align-items: center;
+    background-color: var(--very-pale-blue);
 }
 
 .red-hat-display-500 {
