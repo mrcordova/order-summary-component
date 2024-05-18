@@ -96,8 +96,13 @@ body {
 }
 .music-icon {
     
-    padding-block: 1.125rem;
-    padding-inline-start: 0.9375rem;
+    /* Mobile */
+    /* padding-block: 1.125rem; */
+    /* padding-inline-start: 0.9375rem; */
+
+    /* Desktop */
+    padding-block: 1.4375rem 1rem;
+    padding-inline-start: 1.55rem;
   
     
 }
@@ -123,10 +128,11 @@ body {
     align-items: center;
     background-color: var(--very-pale-blue);
     border-radius: 15px;
+     /* Mobile */
+    /* margin-inline: 1.5625rem; */
 
-    
-    margin-inline: 1.5625rem;
-  
+    /* Desktop */
+    margin-inline: 3rem;
 }
 
 .plan-con {
@@ -136,22 +142,33 @@ body {
  
 }
 .price {
-    font-size: 0.90rem;
+    /* Mobile */
+    /* font-size: 0.90rem; */
+
+    /* Desktop */
+    font-size: 1.05rem;
    
     
 }
 .price-con {
-    padding-block: 1.3125 1.125rem;
+    /* padding-block: 1.3125rem 1.125rem; */
+
     padding-inline-start: 1.25rem;
-  
-  
+   
     flex: 1;
 
   
 }
 .price-title {
-    font-size: 0.88rem;
     color: var(--dark-blue);
+    /* Mobile */
+    /* font-size: 0.88rem; */
+    /* padding-block: 0 */
+
+    /* Desktop */
+    font-size: 1rem;
+    padding-block-start: 0.6rem;
+    padding-block-end: 0.4rem;
 }
 
 .red-hat-display-500 {
