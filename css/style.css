@@ -22,7 +22,7 @@ body {
 .card {
     display: flex;
     flex-direction: column;
-    inline-size: 21rem;
+    inline-size: 20.5rem;
     align-items: center;
 }
 
