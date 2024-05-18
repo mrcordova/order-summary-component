@@ -52,24 +52,32 @@ body {
 
 #card-para {
     text-align: center;
-    padding-inline: 2.1rem;
-    padding-block-end: 1.1875rem;
-    font-size: 0.95rem;
-    line-height: 1.68;
     color: var(--desaturated-blue);
+    padding-block-end: 1.1875rem;
+    line-height: 1.68;
+    
+    /* Mobile */
+    /* padding-inline: 2.1rem; */
+    /* font-size: 0.95rem; */
+    
+    
+    /* Desktop */
+    padding-inline: 4.5rem;
+    font-size: 1rem;
    
 }
 #card-title {
+    color: var(--dark-blue);
+    padding-block-end: 0.875rem;
+
     /* Mobile */
     /* font-size: 1.4rem; */
     /* padding-block-start: 1.875rem; */
-    /* padding-block-end: 0.875rem; */
+    
 
     /* Desktop */
     font-size: 1.75rem;
     padding-block-start: 2.625rem;
-    padding-block-end: 0.875rem;
-    color: var(--dark-blue);
 }
 
 .change-link {
@@ -77,9 +85,6 @@ body {
     color: var(--bright-blue);
     padding-block: 2.125rem 1.875rem;
     padding-inline-end: 0.9375rem;
-   
-   
-    
 }
 .change-link:hover {
     text-decoration: none;
@@ -116,10 +121,12 @@ body {
     display: flex;
     flex: 1;
     align-items: center;
-    margin-inline: 1.5625rem;
-  
     background-color: var(--very-pale-blue);
     border-radius: 15px;
+
+    
+    margin-inline: 1.5625rem;
+  
 }
 
 .plan-con {
