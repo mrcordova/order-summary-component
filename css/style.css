@@ -87,15 +87,18 @@ body {
 .change-link {
     color: var(--bright-blue);
 
+    font-size: clamp(0.8rem, 0.7648rem + 0.1502vw, 0.9rem);
+    padding-inline-end: clamp(0.9375rem, 0.7394rem + 0.8451vw, 1.5rem);
+    padding-block: clamp( 2rem, 2.1690rem + -0.1878vw, 2.125rem);
     /* Mobile */
     /* font-size: 0.8rem; */
     /* padding-block: 2.125rem 1.875rem; */
     /* padding-inline-end: 0.9375rem; */
 
     /* Desktop */
-    font-size: 0.90rem;
-    padding-block: 2rem 1.875rem;
-    padding-inline-end: 1.5rem;
+    /* font-size: 0.90rem; */
+    /* padding-block: 2rem 1.875rem; */
+    /* padding-inline-end: 1.5rem; */
 }
 .change-link:hover {
     text-decoration: none;
@@ -107,13 +110,15 @@ body {
 }
 .music-icon {
     
+    padding-inline: clamp(0.9375rem, 0.7218rem + 0.9202vw, 1.55rem);
+    padding-block: clamp(1.125rem, 1.0150rem + 0.4695vw, 1.4375rem)  clamp(1.125rem, 0.9930rem + 0.5634vw, 1.5rem);
     /* Mobile */
     /* padding-block: 1.125rem; */
     /* padding-inline-start: 0.9375rem; */
 
     /* Desktop */
-    padding-block: 1.4375rem 1.5rem;
-    padding-inline-start: 1.55rem;
+    /* padding-block: 1.4375rem 1.5rem; */
+    /* padding-inline-start: 1.55rem; */
   
     
 }
@@ -124,13 +129,18 @@ body {
     border-radius: 10px;
     font-size: 0.95rem;
     padding-block: 0.85rem;
+
+    padding-inline: clamp(3.95rem, 3.0521rem + 3.8310vw, 6.5rem);
+    margin-block-start: clamp(1.4rem, 1.1887rem + 0.9014vw, 2rem);
+    margin-block-end: clamp(1.4375rem, 1.2394rem + 0.8451vw, 2rem);
+    
     /* Mobile */
     /* padding-inline: 3.95rem; */
     /* margin-block: 1.4rem 1.4375rem; */
 
     /* Desktop */
-    padding-inline: 6.5rem;
-    margin-block: 2rem 2rem;
+    /* padding-inline: 6.5rem; */
+    /* margin-block: 2rem 2rem; */
 }
 
 #payment-btn:hover {
@@ -143,13 +153,16 @@ body {
     flex: 1;
     align-items: center;
     background-color: var(--very-pale-blue);
+
+    border-radius: clamp( 0.625rem, 1.0475rem + -0.4695vw,  0.9375rem,);
+    margin-inline: clamp(1.5625rem, 1.0563rem + 2.1596vw, 3rem);
     /* Mobile */
     /* margin-inline: 1.5625rem; */
     /* border-radius: 15px; */
     
     /* Desktop */
-    margin-inline: 3rem;
-    border-radius: 10px;
+    /* margin-inline: 3rem; */
+    /* border-radius: 10px; */
 }
 
 .plan-con {
@@ -159,11 +172,12 @@ body {
  
 }
 .price {
+    font-size: clamp(0.9rem, 0.8472rem + 0.2254vw, 1.05rem);
     /* Mobile */
     /* font-size: 0.90rem; */
 
     /* Desktop */
-    font-size: 1.05rem;
+    /* font-size: 1.05rem; */
    
     
 }
@@ -178,12 +192,13 @@ body {
 }
 .price-title {
     color: var(--dark-blue);
+    font-size: clamp(0.88rem, 0.8377rem + 0.1803vw, 1rem);
     /* Mobile */
     /* font-size: 0.88rem; */
   
 
     /* Desktop */
-    font-size: 1rem;
+    /* font-size: 1rem; */
     
 }
 
